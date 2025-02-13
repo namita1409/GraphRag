@@ -1,0 +1,140 @@
+ArticleTitle	Question	Answer	DifficultyFromQuestioner	DifficultyFromAnswerer	ArticleFile
+Abraham_Lincoln	Was Abraham Lincoln the sixteenth President of the United States?	yes	easy	easy	S08_set3_a4
+Abraham_Lincoln	Was Abraham Lincoln the sixteenth President of the United States?	Yes.	easy	easy	S08_set3_a4
+Abraham_Lincoln	Did Lincoln sign the National Banking Act of 1863?	yes	easy	medium	S08_set3_a4
+Abraham_Lincoln	Did Lincoln sign the National Banking Act of 1863?	Yes.	easy	easy	S08_set3_a4
+Abraham_Lincoln	Did his mother die of pneumonia?	no	easy	medium	S08_set3_a4
+Abraham_Lincoln	Did his mother die of pneumonia?	No.	easy	easy	S08_set3_a4
+Abraham_Lincoln	How many long was Lincoln's formal education?	18 months	medium	easy	S08_set3_a4
+Abraham_Lincoln	How many long was Lincoln's formal education?	18 months.	medium	medium	S08_set3_a4
+Abraham_Lincoln	When did Lincoln begin his political career?	1832	medium	easy	S08_set3_a4
+Abraham_Lincoln	When did Lincoln begin his political career?	1832.	medium	medium	S08_set3_a4
+Abraham_Lincoln	What did The Legal Tender Act of 1862 establish?	the United States Note, the first paper currency in United States history	medium	easy	S08_set3_a4
+Abraham_Lincoln	What did The Legal Tender Act of 1862 establish?	The United States Note, the first paper currency in United States history.	medium	medium	S08_set3_a4
+Abraham_Lincoln	Who suggested Lincoln grow a beard?	11-year-old Grace Bedell	hard	medium	S08_set3_a4
+Abraham_Lincoln	Who suggested Lincoln grow a beard?	Grace Bedell.	hard	medium	S08_set3_a4
+Abraham_Lincoln	When did the Gettysburg address argue that America was born?	1776	hard	hard	S08_set3_a4
+Abraham_Lincoln	When did the Gettysburg address argue that America was born?	1776.	hard	hard	S08_set3_a4
+Abraham_Lincoln	Did Lincoln beat John C. Breckinridge in the 1860 election?	yes	hard	medium	S08_set3_a4
+Abraham_Lincoln	Did Lincoln beat John C. Breckinridge in the 1860 election?	Yes.	hard	hard	S08_set3_a4
+Abraham_Lincoln	Was Abraham Lincoln the first President of the United States?	No	easy	easy	S08_set3_a4
+Abraham_Lincoln	Was Abraham Lincoln the first President of the United States?	No	easy	medium	S08_set3_a4
+Abraham_Lincoln	Did Lincoln start his political career in 1832?	Yes	easy	easy	S08_set3_a4
+Abraham_Lincoln	Did Lincoln start his political career in 1832?	Yes	easy	easy	S08_set3_a4
+Abraham_Lincoln	Did Lincoln ever represent Alton & Sangamon Railroad?	Yes	easy	easy	S08_set3_a4
+Abraham_Lincoln	Did Lincoln ever represent Alton & Sangamon Railroad?	Yes	easy	easy	S08_set3_a4
+Abraham_Lincoln	Which county was Lincoln born in?	Hardin County	medium	medium	S08_set3_a4
+Abraham_Lincoln	Which county was Lincoln born in?	Southeast Hardin County, Kentucky	medium	medium	S08_set3_a4
+Abraham_Lincoln	When did Lincoln first serve as President?	March 4, 1861	medium	hard	S08_set3_a4
+Abraham_Lincoln	When did Lincoln first serve as President?	March 4, 1861	medium	medium	S08_set3_a4
+Abraham_Lincoln	Who assassinated Lincoln?	John Wilkes Booth	medium	hard	S08_set3_a4
+Abraham_Lincoln	Who assassinated Lincoln?	John Wilkes Booth	medium	hard	S08_set3_a4
+Abraham_Lincoln	Did Lincoln win the election of 1860?	Yes	hard	hard	S08_set3_a4
+Abraham_Lincoln	Did Lincoln win the election of 1860?	Yes	hard	too hard	S08_set3_a4
+Abraham_Lincoln	Who was the general in charge at the Battle of Antietam?	General McClellan	hard	medium	S08_set3_a4
+Abraham_Lincoln	Who was the general in charge at the Battle of Antietam?	John Alexander McClernand	hard	medium	S08_set3_a4
+Abraham_Lincoln	Why did Lincoln issue the Emancipation Proclamation?	To free slaves 	hard	hard	S08_set3_a4
+Abraham_Lincoln	Why did Lincoln issue the Emancipation Proclamation?	The goal was to weaken the rebellion, which was led and controlled by slave owners.	hard	hard	S08_set3_a4
+Abraham_Lincoln	Do scholars rank lincoln among the top three presidents?	NULL	easy	NULL	S08_set3_a4
+Abraham_Lincoln	Do scholars rank lincoln among the top three presidents?	Yes	easy	easy	S08_set3_a4
+Abraham_Lincoln	Did lincoln have 18 months of schooling?	NULL	easy	NULL	S08_set3_a4
+Abraham_Lincoln	Did lincoln have 18 months of schooling?	Yes	easy	easy	S08_set3_a4
+Abraham_Lincoln	Was Lincoln chosen as a presidential candidate in 1860?	NULL	easy	NULL	S08_set3_a4
+Abraham_Lincoln	Was Lincoln chosen as a presidential candidate in 1860?	Yes	easy	easy	S08_set3_a4
+Abraham_Lincoln	How old was Lincoln in 1816?	NULL	medium	NULL	S08_set3_a4
+Abraham_Lincoln	How old was Lincoln in 1816?	seven	medium	medium	S08_set3_a4
+Abraham_Lincoln	When was the first photgraph of lincoln taken?	NULL	medium	NULL	S08_set3_a4
+Abraham_Lincoln	When was the first photgraph of lincoln taken?	1846	medium	medium	S08_set3_a4
+Abraham_Lincoln	How long was Lincoln's legal Career?	NULL	medium	NULL	S08_set3_a4
+Abraham_Lincoln	How long was Lincoln's legal Career?	23 years	medium	medium	S08_set3_a4
+Abraham_Lincoln	What trail did Lincoln use a Farmers' Almanac in? 	NULL	hard	NULL	S08_set3_a4
+Abraham_Lincoln	What trail did Lincoln use a Farmers' Almanac in? 	he defended William "Duff" Armstrong	hard	hard	S08_set3_a4
+Abraham_Lincoln	Did Abraham Lincoln live in the Frontier?	NULL	hard	NULL	S08_set3_a4
+Abraham_Lincoln	Did Abraham Lincoln live in the Frontier?	Yes	hard	medium	S08_set3_a4
+Abraham_Lincoln	Did Lincoln's Wife's Family support slavery?	NULL	hard	NULL	S08_set3_a4
+Abraham_Lincoln	Did Lincoln's Wife's Family support slavery?	Yes	hard	medium	S08_set3_a4
+Alessandro_Volta	Volta became professor of physics in the Como high school in what year?	NULL	NULL	NULL	S08_set4_a10
+Alessandro_Volta	What ac phaenomenis inde pendentibus?	NULL	NULL	NULL	S08_set4_a10
+Alessandro_Volta	What may be called Volta's Law of the electrochemical series?	NULL	NULL	NULL	S08_set4_a10
+Alessandro_Volta	Is it true that volta became professor of physics?	NULL	NULL	NULL	S08_set4_a10
+Alessandro_Volta	Is it true that volta entered retirement in spain?	NULL	NULL	NULL	S08_set4_a10
+Alessandro_Volta	When did he become professor?	NULL	NULL	NULL	S08_set4_a10
+Alessandro_Volta	What did Alessandro Volta publish in 1800?	NULL	NULL	NULL	S08_set4_a10
+Alessandro_Volta	Is Volta buried in the city of Como?	NULL	NULL	NULL	S08_set4_a10
+Alessandro_Volta	Is the electrolyte sulphuric acid?	NULL	NULL	NULL	S08_set4_a10
+Alessandro_Volta		NULL	NULL	NULL	S08_set4_a10
+Alessandro_Volta		NULL	NULL	NULL	S08_set4_a10
+Alessandro_Volta		NULL	NULL	NULL	S08_set4_a10
+Alessandro_Volta	NOTTTT  FOUND	NULL	NULL	NULL	S08_set4_a10
+Alessandro_Volta		NULL	NULL	NULL	S08_set4_a10
+Alessandro_Volta		NULL	NULL	NULL	S08_set4_a10
+Alessandro_Volta	Are Count Volta 's original instruments and papers on display there ?	NULL	NULL	NULL	S08_set4_a10
+Alessandro_Volta	Is Volta buried in the city of Como ?	NULL	NULL	NULL	S08_set4_a10
+Alessandro_Volta	Was his 1800 paper written in French ?	NULL	NULL	NULL	S08_set4_a10
+Alessandro_Volta	Are Count Volta 's original instruments and papers on display there ?	NULL	NULL	NULL	S08_set4_a10
+Alessandro_Volta	Did he not realize that the frog 's leg served as both a conductor of electricity -LRB- we would now call it an electrolyte -RRB- and as a detector of electricity ?	NULL	NULL	NULL	S08_set4_a10
+Alessandro_Volta	Does this not make the zinc rod the negative electrode and the copper rod the positive electrode ?	NULL	NULL	NULL	S08_set4_a10
+Alessandro_Volta	What happened with $ its invention?	NULL	NULL	NULL	S08_set4_a10
+Alessandro_Volta	HWhat happened at the electromotive force -LRB- emf -RRB- of a galvanic cell?	NULL	NULL	NULL	S08_set4_a10
+Alessandro_Volta	What happened in 1800?	NULL	NULL	NULL	S08_set4_a10
+Amedeo_Avogadro	What was an Italian savant?	NULL	NULL	NULL	S08_set4_a8
+Amedeo_Avogadro	What was an Italian savant?	NULL	NULL	NULL	S08_set4_a8
+Amedeo_Avogadro	Who is most noted for his contributions to the theory of molarity and molecular weight?	Amedeo Avogadro	NULL	medium	S08_set4_a8
+Amedeo_Avogadro	Who is most noted for his contributions to the theory of molarity and molecular weight?	NULL	NULL	NULL	S08_set4_a8
+Amedeo_Avogadro	Who is most noted for his contributions to the theory of molarity and molecular weight?	NULL	NULL	NULL	S08_set4_a8
+Amedeo_Avogadro	Who graduated in ecclesiastical law at the early age of 20 and began to practice?	Amedeo Avogadro	NULL	medium	S08_set4_a8
+Amedeo_Avogadro	Who graduated in ecclesiastical law at the early age of 20 and began to practice?	blah	NULL	easy	S08_set4_a8
+Amedeo_Avogadro	Who graduated in ecclesiastical law at the early age of 20 and began to practice?	NULL	NULL	NULL	S08_set4_a8
+Amedeo_Avogadro	When did he publish another memoria?	1821	NULL	medium	S08_set4_a8
+Amedeo_Avogadro	When did he publish another memoria?	NULL	NULL	NULL	S08_set4_a8
+Amedeo_Avogadro	When did he publish another memoria?	NULL	NULL	NULL	S08_set4_a8
+Amedeo_Avogadro	When did he become a professor?	1820	NULL	medium	S08_set4_a8
+Amedeo_Avogadro	When did he become a professor?	NULL	NULL	NULL	S08_set4_a8
+Amedeo_Avogadro	When did he become a professor?	NULL	NULL	NULL	S08_set4_a8
+Amedeo_Avogadro	Is it true that he became a professor in 1820?	yes	NULL	easy	S08_set4_a8
+Amedeo_Avogadro	Is it true that he became a professor in 1820?	NULL	NULL	NULL	S08_set4_a8
+Amedeo_Avogadro	Is it true that he became a professor in 1820?	NULL	NULL	NULL	S08_set4_a8
+Amedeo_Avogadro	Was Lorenzo Romano Amedeo Carlo Avogadro an Italian savant?	yes	NULL	easy	S08_set4_a8
+Amedeo_Avogadro	Was Lorenzo Romano Amedeo Carlo Avogadro an Italian savant?	NULL	NULL	NULL	S08_set4_a8
+Amedeo_Avogadro	Was Lorenzo Romano Amedeo Carlo Avogadro an Italian savant?	NULL	NULL	NULL	S08_set4_a8
+Amedeo_Avogadro	Was Amedeo Avogadro born in Turin August 9th 1776 to a noble ancient family of Piedmont, Italy?	yes	NULL	easy	S08_set4_a8
+Amedeo_Avogadro	Was Amedeo Avogadro born in Turin August 9th 1776 to a noble ancient family of Piedmont, Italy?	NULL	NULL	NULL	S08_set4_a8
+Amedeo_Avogadro	Was Amedeo Avogadro born in Turin August 9th 1776 to a noble ancient family of Piedmont, Italy?	NULL	NULL	NULL	S08_set4_a8
+Amedeo_Avogadro	Is he most noted for his contributions to the theory of molarity and molecular weight?	yes	NULL	easy	S08_set4_a8
+Amedeo_Avogadro	Is he most noted for his contributions to the theory of molarity and molecular weight?	NULL	NULL	NULL	S08_set4_a8
+Amedeo_Avogadro	Is he most noted for his contributions to the theory of molarity and molecular weight?	NULL	NULL	NULL	S08_set4_a8
+Amedeo_Avogadro		NULL	NULL	NULL	S08_set4_a8
+Amedeo_Avogadro		NULL	NULL	NULL	S08_set4_a8
+Amedeo_Avogadro		NULL	NULL	NULL	S08_set4_a8
+Amedeo_Avogadro		NULL	NULL	NULL	S08_set4_a8
+Amedeo_Avogadro		NULL	NULL	NULL	S08_set4_a8
+Amedeo_Avogadro		NULL	NULL	NULL	S08_set4_a8
+Amedeo_Avogadro	Who confirm that he sponsored and helped some Sardinian plotters who were organising a revolution in that island , stopped at the very last moment by the concession of Charles Albert 's statute ?	NULL	NULL	NULL	S08_set4_a8
+Amedeo_Avogadro	Who confirm that he sponsored and helped some Sardinian plotters who were organising a revolution in that island , stopped at the very last moment by the concession of Charles Albert 's statute ?	NULL	NULL	NULL	S08_set4_a8
+Amedeo_Avogadro	He is what?	NULL	NULL	NULL	S08_set4_a8
+Amedeo_Avogadro	He is what?	NULL	NULL	NULL	S08_set4_a8
+Amedeo_Avogadro	The unification of Italy did what?	NULL	NULL	NULL	S08_set4_a8
+Amedeo_Avogadro	Was King Victor Emmanuel III there to pay homage to Avogadro ?	yes	NULL	easy	S08_set4_a8
+Amedeo_Avogadro	Was King Victor Emmanuel III there to pay homage to Avogadro ?	NULL	NULL	NULL	S08_set4_a8
+Amedeo_Avogadro	Was King Victor Emmanuel III there to pay homage to Avogadro ?	NULL	NULL	NULL	S08_set4_a8
+Amedeo_Avogadro	Is Avogadro 's number commonly used to compute the results of chemical reactions ?	yes	NULL	easy	S08_set4_a8
+Amedeo_Avogadro	Is Avogadro 's number commonly used to compute the results of chemical reactions ?	NULL	NULL	NULL	S08_set4_a8
+Amedeo_Avogadro	Is Avogadro 's number commonly used to compute the results of chemical reactions ?	NULL	NULL	NULL	S08_set4_a8
+Amedeo_Avogadro	Is it approximately 6.0221415 10 23 ?	NULL	NULL	NULL	S08_set4_a8
+Amedeo_Avogadro	Is it approximately 6.0221415 10 23 ?	NULL	NULL	NULL	S08_set4_a8
+Amedeo_Avogadro	Did the scientific community not reserve great attention to his theory ?	yes	NULL	easy	S08_set4_a8
+Amedeo_Avogadro	Did the scientific community not reserve great attention to his theory ?	NULL	NULL	NULL	S08_set4_a8
+Amedeo_Avogadro	Did the scientific community not reserve great attention to his theory ?	NULL	NULL	NULL	S08_set4_a8
+Amedeo_Avogadro	Does it not allow chemists to determine the exact amounts of substances produced in a given reaction ?	NULL	NULL	NULL	S08_set4_a8
+Amedeo_Avogadro	Does it not allow chemists to determine the exact amounts of substances produced in a given reaction ?	NULL	NULL	NULL	S08_set4_a8
+Amedeo_Avogadro	Was King Victor Emmanuel III there to pay homage to Avogadro ?	yes	NULL	easy	S08_set4_a8
+Amedeo_Avogadro	Was King Victor Emmanuel III there to pay homage to Avogadro ?	NULL	NULL	NULL	S08_set4_a8
+Amedeo_Avogadro	Was King Victor Emmanuel III there to pay homage to Avogadro ?	NULL	NULL	NULL	S08_set4_a8
+Amedeo_Avogadro	Can the title of this famous 1811 paper be roughly translated into english?	yes	NULL	easy	S08_set4_a8
+Amedeo_Avogadro	Can the title of this famous 1811 paper be roughly translated into english?	NULL	NULL	NULL	S08_set4_a8
+Amedeo_Avogadro	Can the title of this famous 1811 paper be roughly translated into english?		NULL		S08_set4_a8
+Amedeo_Avogadro	What happened in french?	NULL	NULL	NULL	S08_set4_a8
+Amedeo_Avogadro	What happened in french?		NULL	hard	S08_set4_a8
+Amedeo_Avogadro	What happened in 1833?	Avogadro had been recalled to Turin university	NULL	medium	S08_set4_a8
+Amedeo_Avogadro	What happened in 1833?	NULL	NULL	NULL	S08_set4_a8
+Amedeo_Avogadro	What happened in 1833?	blah blah blah	NULL	hard	S08_set4_a8

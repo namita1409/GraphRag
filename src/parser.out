@@ -1,0 +1,436 @@
+Created by PLY version 3.11 (http://www.dabeaz.com/ply)
+
+Unused terminals:
+
+    PROC
+
+Grammar
+
+Rule 0     S' -> program
+Rule 1     program -> stmt_list
+Rule 2     stmt_list -> stmt_list stmt
+Rule 3     stmt_list -> stmt
+Rule 4     stmt -> data_step
+Rule 5     data_step -> DATA ID SEMICOLON data_body RUN SEMICOLON
+Rule 6     data_body -> stmt_list_data
+Rule 7     stmt_list_data -> stmt_list_data stmt_data
+Rule 8     stmt_list_data -> stmt_data
+Rule 9     stmt_data -> set_stmt
+Rule 10    stmt_data -> assignment_stmt
+Rule 11    set_stmt -> SET qualified_id SEMICOLON
+Rule 12    set_stmt -> SET ID SEMICOLON
+Rule 13    qualified_id -> ID DOT ID
+Rule 14    assignment_stmt -> ID EQUALS expr SEMICOLON
+Rule 15    expr -> function_call
+Rule 16    expr -> ID
+Rule 17    expr -> STRING
+Rule 18    function_call -> ID LPAREN expr_arg_list_opt RPAREN
+Rule 19    expr_arg_list_opt -> expr_list
+Rule 20    expr_arg_list_opt -> <empty>
+Rule 21    expr_list -> expr
+Rule 22    expr_list -> expr_list COMMA expr
+
+Terminals, with rules where they appear
+
+COMMA                : 22
+DATA                 : 5
+DOT                  : 13
+EQUALS               : 14
+ID                   : 5 12 13 13 14 16 18
+LPAREN               : 18
+PROC                 : 
+RPAREN               : 18
+RUN                  : 5
+SEMICOLON            : 5 5 11 12 14
+SET                  : 11 12
+STRING               : 17
+error                : 
+
+Nonterminals, with rules where they appear
+
+assignment_stmt      : 10
+data_body            : 5
+data_step            : 4
+expr                 : 14 21 22
+expr_arg_list_opt    : 18
+expr_list            : 19 22
+function_call        : 15
+program              : 0
+qualified_id         : 11
+set_stmt             : 9
+stmt                 : 2 3
+stmt_data            : 7 8
+stmt_list            : 1 2
+stmt_list_data       : 6 7
+
+Parsing method: LALR
+
+state 0
+
+    (0) S' -> . program
+    (1) program -> . stmt_list
+    (2) stmt_list -> . stmt_list stmt
+    (3) stmt_list -> . stmt
+    (4) stmt -> . data_step
+    (5) data_step -> . DATA ID SEMICOLON data_body RUN SEMICOLON
+
+    DATA            shift and go to state 5
+
+    program                        shift and go to state 1
+    stmt_list                      shift and go to state 2
+    stmt                           shift and go to state 3
+    data_step                      shift and go to state 4
+
+state 1
+
+    (0) S' -> program .
+
+
+
+state 2
+
+    (1) program -> stmt_list .
+    (2) stmt_list -> stmt_list . stmt
+    (4) stmt -> . data_step
+    (5) data_step -> . DATA ID SEMICOLON data_body RUN SEMICOLON
+
+    $end            reduce using rule 1 (program -> stmt_list .)
+    DATA            shift and go to state 5
+
+    stmt                           shift and go to state 6
+    data_step                      shift and go to state 4
+
+state 3
+
+    (3) stmt_list -> stmt .
+
+    DATA            reduce using rule 3 (stmt_list -> stmt .)
+    $end            reduce using rule 3 (stmt_list -> stmt .)
+
+
+state 4
+
+    (4) stmt -> data_step .
+
+    DATA            reduce using rule 4 (stmt -> data_step .)
+    $end            reduce using rule 4 (stmt -> data_step .)
+
+
+state 5
+
+    (5) data_step -> DATA . ID SEMICOLON data_body RUN SEMICOLON
+
+    ID              shift and go to state 7
+
+
+state 6
+
+    (2) stmt_list -> stmt_list stmt .
+
+    DATA            reduce using rule 2 (stmt_list -> stmt_list stmt .)
+    $end            reduce using rule 2 (stmt_list -> stmt_list stmt .)
+
+
+state 7
+
+    (5) data_step -> DATA ID . SEMICOLON data_body RUN SEMICOLON
+
+    SEMICOLON       shift and go to state 8
+
+
+state 8
+
+    (5) data_step -> DATA ID SEMICOLON . data_body RUN SEMICOLON
+    (6) data_body -> . stmt_list_data
+    (7) stmt_list_data -> . stmt_list_data stmt_data
+    (8) stmt_list_data -> . stmt_data
+    (9) stmt_data -> . set_stmt
+    (10) stmt_data -> . assignment_stmt
+    (11) set_stmt -> . SET qualified_id SEMICOLON
+    (12) set_stmt -> . SET ID SEMICOLON
+    (14) assignment_stmt -> . ID EQUALS expr SEMICOLON
+
+    SET             shift and go to state 15
+    ID              shift and go to state 9
+
+    data_body                      shift and go to state 10
+    stmt_list_data                 shift and go to state 11
+    stmt_data                      shift and go to state 12
+    set_stmt                       shift and go to state 13
+    assignment_stmt                shift and go to state 14
+
+state 9
+
+    (14) assignment_stmt -> ID . EQUALS expr SEMICOLON
+
+    EQUALS          shift and go to state 16
+
+
+state 10
+
+    (5) data_step -> DATA ID SEMICOLON data_body . RUN SEMICOLON
+
+    RUN             shift and go to state 17
+
+
+state 11
+
+    (6) data_body -> stmt_list_data .
+    (7) stmt_list_data -> stmt_list_data . stmt_data
+    (9) stmt_data -> . set_stmt
+    (10) stmt_data -> . assignment_stmt
+    (11) set_stmt -> . SET qualified_id SEMICOLON
+    (12) set_stmt -> . SET ID SEMICOLON
+    (14) assignment_stmt -> . ID EQUALS expr SEMICOLON
+
+    RUN             reduce using rule 6 (data_body -> stmt_list_data .)
+    SET             shift and go to state 15
+    ID              shift and go to state 9
+
+    stmt_data                      shift and go to state 18
+    set_stmt                       shift and go to state 13
+    assignment_stmt                shift and go to state 14
+
+state 12
+
+    (8) stmt_list_data -> stmt_data .
+
+    SET             reduce using rule 8 (stmt_list_data -> stmt_data .)
+    ID              reduce using rule 8 (stmt_list_data -> stmt_data .)
+    RUN             reduce using rule 8 (stmt_list_data -> stmt_data .)
+
+
+state 13
+
+    (9) stmt_data -> set_stmt .
+
+    SET             reduce using rule 9 (stmt_data -> set_stmt .)
+    ID              reduce using rule 9 (stmt_data -> set_stmt .)
+    RUN             reduce using rule 9 (stmt_data -> set_stmt .)
+
+
+state 14
+
+    (10) stmt_data -> assignment_stmt .
+
+    SET             reduce using rule 10 (stmt_data -> assignment_stmt .)
+    ID              reduce using rule 10 (stmt_data -> assignment_stmt .)
+    RUN             reduce using rule 10 (stmt_data -> assignment_stmt .)
+
+
+state 15
+
+    (11) set_stmt -> SET . qualified_id SEMICOLON
+    (12) set_stmt -> SET . ID SEMICOLON
+    (13) qualified_id -> . ID DOT ID
+
+    ID              shift and go to state 20
+
+    qualified_id                   shift and go to state 19
+
+state 16
+
+    (14) assignment_stmt -> ID EQUALS . expr SEMICOLON
+    (15) expr -> . function_call
+    (16) expr -> . ID
+    (17) expr -> . STRING
+    (18) function_call -> . ID LPAREN expr_arg_list_opt RPAREN
+
+    ID              shift and go to state 21
+    STRING          shift and go to state 24
+
+    expr                           shift and go to state 22
+    function_call                  shift and go to state 23
+
+state 17
+
+    (5) data_step -> DATA ID SEMICOLON data_body RUN . SEMICOLON
+
+    SEMICOLON       shift and go to state 25
+
+
+state 18
+
+    (7) stmt_list_data -> stmt_list_data stmt_data .
+
+    SET             reduce using rule 7 (stmt_list_data -> stmt_list_data stmt_data .)
+    ID              reduce using rule 7 (stmt_list_data -> stmt_list_data stmt_data .)
+    RUN             reduce using rule 7 (stmt_list_data -> stmt_list_data stmt_data .)
+
+
+state 19
+
+    (11) set_stmt -> SET qualified_id . SEMICOLON
+
+    SEMICOLON       shift and go to state 26
+
+
+state 20
+
+    (12) set_stmt -> SET ID . SEMICOLON
+    (13) qualified_id -> ID . DOT ID
+
+    SEMICOLON       shift and go to state 27
+    DOT             shift and go to state 28
+
+
+state 21
+
+    (16) expr -> ID .
+    (18) function_call -> ID . LPAREN expr_arg_list_opt RPAREN
+
+    SEMICOLON       reduce using rule 16 (expr -> ID .)
+    COMMA           reduce using rule 16 (expr -> ID .)
+    RPAREN          reduce using rule 16 (expr -> ID .)
+    LPAREN          shift and go to state 29
+
+
+state 22
+
+    (14) assignment_stmt -> ID EQUALS expr . SEMICOLON
+
+    SEMICOLON       shift and go to state 30
+
+
+state 23
+
+    (15) expr -> function_call .
+
+    SEMICOLON       reduce using rule 15 (expr -> function_call .)
+    COMMA           reduce using rule 15 (expr -> function_call .)
+    RPAREN          reduce using rule 15 (expr -> function_call .)
+
+
+state 24
+
+    (17) expr -> STRING .
+
+    SEMICOLON       reduce using rule 17 (expr -> STRING .)
+    COMMA           reduce using rule 17 (expr -> STRING .)
+    RPAREN          reduce using rule 17 (expr -> STRING .)
+
+
+state 25
+
+    (5) data_step -> DATA ID SEMICOLON data_body RUN SEMICOLON .
+
+    DATA            reduce using rule 5 (data_step -> DATA ID SEMICOLON data_body RUN SEMICOLON .)
+    $end            reduce using rule 5 (data_step -> DATA ID SEMICOLON data_body RUN SEMICOLON .)
+
+
+state 26
+
+    (11) set_stmt -> SET qualified_id SEMICOLON .
+
+    SET             reduce using rule 11 (set_stmt -> SET qualified_id SEMICOLON .)
+    ID              reduce using rule 11 (set_stmt -> SET qualified_id SEMICOLON .)
+    RUN             reduce using rule 11 (set_stmt -> SET qualified_id SEMICOLON .)
+
+
+state 27
+
+    (12) set_stmt -> SET ID SEMICOLON .
+
+    SET             reduce using rule 12 (set_stmt -> SET ID SEMICOLON .)
+    ID              reduce using rule 12 (set_stmt -> SET ID SEMICOLON .)
+    RUN             reduce using rule 12 (set_stmt -> SET ID SEMICOLON .)
+
+
+state 28
+
+    (13) qualified_id -> ID DOT . ID
+
+    ID              shift and go to state 31
+
+
+state 29
+
+    (18) function_call -> ID LPAREN . expr_arg_list_opt RPAREN
+    (19) expr_arg_list_opt -> . expr_list
+    (20) expr_arg_list_opt -> .
+    (21) expr_list -> . expr
+    (22) expr_list -> . expr_list COMMA expr
+    (15) expr -> . function_call
+    (16) expr -> . ID
+    (17) expr -> . STRING
+    (18) function_call -> . ID LPAREN expr_arg_list_opt RPAREN
+
+    RPAREN          reduce using rule 20 (expr_arg_list_opt -> .)
+    ID              shift and go to state 21
+    STRING          shift and go to state 24
+
+    expr_arg_list_opt              shift and go to state 32
+    expr_list                      shift and go to state 33
+    expr                           shift and go to state 34
+    function_call                  shift and go to state 23
+
+state 30
+
+    (14) assignment_stmt -> ID EQUALS expr SEMICOLON .
+
+    SET             reduce using rule 14 (assignment_stmt -> ID EQUALS expr SEMICOLON .)
+    ID              reduce using rule 14 (assignment_stmt -> ID EQUALS expr SEMICOLON .)
+    RUN             reduce using rule 14 (assignment_stmt -> ID EQUALS expr SEMICOLON .)
+
+
+state 31
+
+    (13) qualified_id -> ID DOT ID .
+
+    SEMICOLON       reduce using rule 13 (qualified_id -> ID DOT ID .)
+
+
+state 32
+
+    (18) function_call -> ID LPAREN expr_arg_list_opt . RPAREN
+
+    RPAREN          shift and go to state 35
+
+
+state 33
+
+    (19) expr_arg_list_opt -> expr_list .
+    (22) expr_list -> expr_list . COMMA expr
+
+    RPAREN          reduce using rule 19 (expr_arg_list_opt -> expr_list .)
+    COMMA           shift and go to state 36
+
+
+state 34
+
+    (21) expr_list -> expr .
+
+    COMMA           reduce using rule 21 (expr_list -> expr .)
+    RPAREN          reduce using rule 21 (expr_list -> expr .)
+
+
+state 35
+
+    (18) function_call -> ID LPAREN expr_arg_list_opt RPAREN .
+
+    SEMICOLON       reduce using rule 18 (function_call -> ID LPAREN expr_arg_list_opt RPAREN .)
+    COMMA           reduce using rule 18 (function_call -> ID LPAREN expr_arg_list_opt RPAREN .)
+    RPAREN          reduce using rule 18 (function_call -> ID LPAREN expr_arg_list_opt RPAREN .)
+
+
+state 36
+
+    (22) expr_list -> expr_list COMMA . expr
+    (15) expr -> . function_call
+    (16) expr -> . ID
+    (17) expr -> . STRING
+    (18) function_call -> . ID LPAREN expr_arg_list_opt RPAREN
+
+    ID              shift and go to state 21
+    STRING          shift and go to state 24
+
+    expr                           shift and go to state 37
+    function_call                  shift and go to state 23
+
+state 37
+
+    (22) expr_list -> expr_list COMMA expr .
+
+    COMMA           reduce using rule 22 (expr_list -> expr_list COMMA expr .)
+    RPAREN          reduce using rule 22 (expr_list -> expr_list COMMA expr .)
+
